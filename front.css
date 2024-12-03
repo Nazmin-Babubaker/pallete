@@ -4,10 +4,12 @@
     margin: -1px;
     
     transition: 1s;
+    display: flexbox;
 }
 #title{
             
     text-align: center;
+    display: flexbox;
 }
 
 div{
@@ -26,7 +28,24 @@ h4{
     letter-spacing: 5px;
 }
 
+.name{
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: #ffffff8f;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    height: 20px;
+     
+}
+
 .top:hover{
    
     transform: scaleY(1.09) ;
+}
+
+
+.top:hover .name{
+    visibility: visible;
 }
