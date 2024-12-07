@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    background-color:   beige;
 }
 
 
@@ -9,6 +10,7 @@
     margin: -1px;
     flex-grow: 1;
     display: flex;
+    flex-wrap: wrap-reverse;
     
     transition: 1s;
 
@@ -49,10 +51,13 @@ h4{
 
 .top:hover{
 
-    transform: scaleY(1.09) ;
+    transform: scaleY(1.09);
+     border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
  
 
 .top:hover .name{
     visibility: visible;
+    border-radius: 10%;
 }
