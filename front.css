@@ -7,20 +7,22 @@
     height: 300px;
     width: 101px;
     margin: -1px;
+    flex-grow: 1;
+    display: flex;
     
     transition: 1s;
-    display: flexbox;
+
 }
 #title{
-    margin-top: 5%; 
+    margin-top: 5% ; 
     text-align: center;                                                                                          
-    display: flexbox;
+
 }
 
-div{
+.up{
     display: flex;
     margin:-1px;
-}
+} 
 
 h1{
     font-size: 50px;    
