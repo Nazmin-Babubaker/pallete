@@ -61,3 +61,27 @@ h4{
     visibility: visible;
     border-radius: 10%;
 }
+input{
+    height: 50px;
+    width: calc(100% - 50px);
+    border :transparent;
+    text-align: center;
+    box-sizing: border-box;
+}
+input:focus-visible{
+    border: transparent;
+}
+
+.searchbox{
+    display : flex;
+    justify-content: center;
+}
+
+.searchbox div{
+    justify-content: space-between;
+    width: 500px;
+    border: black solid 0.5px;
+    border-radius: 50px;
+    padding: 0px 22px;
+    box-sizing: border-box;
+}
