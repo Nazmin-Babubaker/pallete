@@ -68,9 +68,6 @@ input{
     text-align: center;
     box-sizing: border-box;
 }
-input:focus-visible{
-    border: transparent;
-}
 
 .searchbox{
     display : flex;
