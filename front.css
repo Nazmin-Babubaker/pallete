@@ -3,21 +3,28 @@
     background-color:   beige;
 }
 
+header{
+    display: grid;
+    
+}
+
 
 .top{
     height: 300px;
     width: 101px;
     margin: -1px;
-    flex-grow: 1;
+    flex: 1 1 auto;
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;                               
     
     transition: 1s;
 
 }
 #title{
     margin-top: 5% ; 
-    text-align: center;                                                                                          
+    text-align: center; 
+    flex: 1 1 auto;                                                                                                                    
 
 }
 
@@ -68,9 +75,7 @@ input{
     text-align: center;
     box-sizing: border-box;
 }
-input:focus-visible{
-    border: transparent;
-}
+
 
 .searchbox{
     display : flex;
